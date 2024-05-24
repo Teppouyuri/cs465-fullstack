@@ -4,7 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
-var indexRouter = require('./app_server/routes/index');
+var indexRouter = require('/Users/thanhnguyen/Desktop/travlr/app_server/routes/index.js');
 var usersRouter = require('/Users/thanhnguyen/Desktop/travlr/app_server/routes/users.js');
 var travelRouter = require('/Users/thanhnguyen/Desktop/travlr/app_server/routes/traver.js');
 var handlebars = require('hbs');
