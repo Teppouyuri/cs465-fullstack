@@ -53,5 +53,5 @@ process.once('SIGUSR2', () => {
     // Make initial connection to DB
     connect();
     // Import Mongoose schema
-    require('./travlr');
+    require('./travel');
     module.exports = mongoose;
